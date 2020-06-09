@@ -244,7 +244,7 @@ public class ImprimirDatos {
 		
 		/*nombre_funcion ( argumento "tipo y nombre"){
 			bloque de sentencias
-		}*/
+		}
 		
 		int x, y;
 		x = 12;
@@ -285,5 +285,17 @@ public class ImprimirDatos {
 		return volumen;
 	}
 	
-	
+	*/
+		//WHILE, FOR, DO WHILE, FOREACH, SWITCH
+		int i = 1;
+		while ( i < 99) {
+			//instrucciones
+			i = (int) (Math.random()*100);
+			System.out.println(i);
+		//i++;
+		}
+		
+		
+		
+	}
 }
