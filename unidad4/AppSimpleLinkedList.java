@@ -11,11 +11,14 @@ public class AppSimpleLinkedList {
 	listaInteger.addFirst(56);
 	
 	//listaInteger.removeFirst();
-
+	System.out.println("f"+listaInteger.first());
 	//System.out.println(listaInteger.last());
 	//System.out.println(listaInteger.first());
-	System.out.println(listaInteger.getElementObject(1));
-	
+	//System.out.println(listaInteger.removeElement(1));
+	listaInteger.removeElement(0);
+	//listaInteger.removeElement(1);
+	System.out.println(listaInteger.first());
+	//System.out.println(listaInteger.last());
 	}
 
 }

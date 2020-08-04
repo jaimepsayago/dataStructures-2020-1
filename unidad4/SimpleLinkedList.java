@@ -87,6 +87,17 @@ public class SimpleLinkedList <E> {
 	
 	//ELEMINAR CUALQUIER ELEMENTO
 	
-	
+	public E removeElement(int index) {
+		int c = 0;
+		Node <E> tmp = head;//nodo temporal
+		while (c < index-1) {
+			tmp = tmp.getNext(); 
+			c++;
+		}
+		E e1 = tmp.getElement();
+		head = head.getNext();
+		size --;
+		return e1;
+	}
 
 }
