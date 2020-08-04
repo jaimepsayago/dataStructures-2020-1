@@ -1,0 +1,3 @@
+WARNING - 11:00:18: First conversion pass
+ERROR - 11:00:18: org.xml.sax.SAXParseExceptionpublicId: /EDD-2020-1/src/unidad2/poo/AppCumple.java; systemId: file:///EDD-2020-1/src/unidad2/poo/AppCumple.java; lineNumber: 1; columnNumber: 1; El contenido no está permitido en el prólogo.
+ERROR - 11:00:18: org.xml.sax.SAXParseExceptionpublicId: /EDD-2020-1/src/unidad2/poo/AppCumple.java; systemId: file:///EDD-2020-1/src/unidad2/poo/AppCumple.java; lineNumber: 1; columnNumber: 1; El contenido no está permitido en el prólogo.
